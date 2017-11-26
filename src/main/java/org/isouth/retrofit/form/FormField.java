@@ -1,4 +1,4 @@
-package org.isouth.platinum;
+package org.isouth.retrofit.form;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

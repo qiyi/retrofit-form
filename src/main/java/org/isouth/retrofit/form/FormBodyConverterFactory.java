@@ -1,4 +1,4 @@
-package org.isouth.platinum;
+package org.isouth.retrofit.form;
 
 import okhttp3.RequestBody;
 import retrofit2.Converter;

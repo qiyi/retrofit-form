@@ -8,7 +8,7 @@ retrofit-form 支持使用 retrofit 发起 form data 请求时，使用自定义
         Call<AccountInfo> addAccountInfo(@Body @FormBody AccountInfo accountInfo);
     }
     
-即将 form data 的参数定义到一个复杂对象里，在接口定义上添加 ``@FormBody`` 注解.
+即将 form data 的参数定义到一个复杂对象里，在参数定义上添加 ``@FormBody`` 注解.
  
     Retrofit retrofit = new Retrofit.Builder()
             .baseUrl("http://127.0.0.1:8080/")
